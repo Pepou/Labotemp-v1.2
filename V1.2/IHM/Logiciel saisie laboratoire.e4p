@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-5.1.dtd">
+<!-- eric5 project file for project Logiciel saisie laboratoire -->
+<!-- Saved: 2014-09-11, 10:18:23 -->
+<!-- Copyright (C) 2014 F.Cariou,  -->
+<Project version="5.1">
+  <Language>en_US</Language>
+  <Hash>883438108f5146c2391d0c645a2fdb0d38c9ba6b</Hash>
+  <ProgLanguage mixed="0">Python3</ProgLanguage>
+  <ProjectType>Qt4</ProjectType>
+  <Description>-correction bug :  cv (le 7 et 8 eme instruments etaient regardés deux fois ligne 2771/ligne 1497)
+-correction bug sur annule et remplace si n° SAP present
+-Correction bug modification donnees par rapport à un seul instrument (le N° doc n'apparaissait plus ds la base
+-Definition du repertoire y:\1.METROLOGIE\0.ARCHIVES ETALONNAGE-VERIFICATIONS\1-TEMPERATURE\ comme current work directory
+-Modification requete recherche_caract_instrument pour integrer designation litterale : sur le CE apparait &quot;designation/designation litterale&quot;
+-modification cv pour la signature automatique
+-modification pour pouvoir modifier le nom d'un instrument dans une campagen ou un etalaonnage :mise_a_jour_table_etalonnage_temp_administration (integration ancien instrum.Creation requete recherche_identification_instrument
+-mise en place d'un widget sur onglet resultat qui calcul les arrondis et les affiches</Description>
+  <Version>1.2</Version>
+  <Author>F.Cariou</Author>
+  <Email></Email>
+  <Eol index="-1"/>
+  <Sources>
+    <Source>Main.py</Source>
+    <Source>connexion2.py</Source>
+    <Source>GestionBdd.py</Source>
+    <Source>Menu.py</Source>
+    <Source>OngletConformite.py</Source>
+    <Source>Package/fonctions.py</Source>
+    <Source>Package/__init__.py</Source>
+    <Source>RapportEtalonnage.py</Source>
+    <Source>RapportSaisie.py</Source>
+    <Source>Saisie_etalonnage.py</Source>
+    <Source>saisie_instrument.py</Source>
+    <Source>Ui_connexion2.py</Source>
+    <Source>Ui_Menu.py</Source>
+    <Source>Ui_Saisie_etalonnage.py</Source>
+    <Source>Ui_saisie_instrument.py</Source>
+    <Source>__init__.py</Source>
+    <Source>Ui_resume_onglet_resultat.py</Source>
+    <Source>resume_onglet_resultat.py</Source>
+  </Sources>
+  <Forms>
+    <Form>connexion2.ui</Form>
+    <Form>Menu.ui</Form>
+    <Form>Saisie_etalonnage.ui</Form>
+    <Form>saisie_instrument.ui</Form>
+    <Form>resume_onglet_resultat.ui</Form>
+  </Forms>
+  <Translations/>
+  <Resources/>
+  <Interfaces/>
+  <Others/>
+  <MainScript>Main.py</MainScript>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES"/>
+    <FiletypeAssociation pattern="*.py" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.py3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.pyw3" type="SOURCES"/>
+    <FiletypeAssociation pattern="*.qm" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.qrc" type="RESOURCES"/>
+    <FiletypeAssociation pattern="*.ts" type="TRANSLATIONS"/>
+    <FiletypeAssociation pattern="*.ui" type="FORMS"/>
+    <FiletypeAssociation pattern="*.ui.h" type="FORMS"/>
+  </FiletypeAssociations>
+  <Packagers>
+    <PackagersParams>
+      <dict>
+        <key>
+          <string>CXFREEZE</string>
+        </key>
+        <value>
+          <dict>
+            <key>
+              <string>additionalFiles</string>
+            </key>
+            <value>
+              <list>
+                <string>C:\Python33\Lib\site-packages\PyQt4\plugins\sqldrivers</string>
+                <string>C:\Python33\Lib\site-packages\win32com\gen_py\00020813-0000-0000-C000-000000000046x0x1x7</string>
+                <string>C:\Python33\Lib\site-packages\win32com\gen_py\00020905-0000-0000-C000-000000000046x0x8x5</string>
+                <string>AppData</string>
+                <string>LOGO_REACTUALISE_petit_format.png</string>
+              </list>
+            </value>
+            <key>
+              <string>applicationIcon</string>
+            </key>
+            <value>
+              <string></string>
+            </value>
+            <key>
+              <string>baseName</string>
+            </key>
+            <value>
+              <string>Console</string>
+            </value>
+            <key>
+              <string>initScript</string>
+            </key>
+            <value>
+              <string>Console3</string>
+            </value>
+            <key>
+              <string>optimize</string>
+            </key>
+            <value>
+              <int>1</int>
+            </value>
+            <key>
+              <string>script</string>
+            </key>
+            <value>
+              <string>C:\Python33\Scripts\cxfreeze.bat</string>
+            </value>
+            <key>
+              <string>targetDirectory</string>
+            </key>
+            <value>
+              <string>C:\Travail\EFS\Travail accreditation\SQ\Temperature\Logiciel Saisie des Etalonnages\Builds\V1.2\Package\Logiciel saisie v1.2</string>
+            </value>
+            <key>
+              <string>targetName</string>
+            </key>
+            <value>
+              <string>LaboTemp v1.2.exe</string>
+            </value>
+          </dict>
+        </value>
+      </dict>
+    </PackagersParams>
+  </Packagers>
+</Project>
