@@ -17,6 +17,7 @@ from RapportEtalonnage import RapportEtalonnage
 from RapportSaisie import RapportSaisie
 from Package.fonctions import sauvegarde_onglet_saisie
 import numpy
+import os
 
 
 
@@ -245,6 +246,15 @@ class Menu(QMainWindow, Ui_Menu):
                 ensemble_nom_campagne = db.recuperation_nom_campagne_etal_non_valide()
                 valeur_combobox = [nom for nom in ensemble_nom_campagne if bool(nom)!= False]
                 self.comboBox_validation_n_doc.clear()
+                #effacement des fichiers temporaire (present dans le dossier AppData) 
+            
+                path =os.path.abspath("AppData/")
+          
+                for ele in os.listdir(path):
+                    path_total = str(path + "/"+str(ele))
+                
+                    if os.path.isfile(path_total): # verification qu'il s'agit bien de fichier
+                        os.remove(path_total)
 #                self.comboBox_validation_n_doc.addItems(valeur_combobox)
                 
            else:

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Tasks SYSTEM "Tasks-5.1.dtd">
 <!-- eric5 tasks file for project Logiciel saisie laboratoire -->
-<!-- Saved: 2014-09-17, 17:00:31 -->
+<!-- Saved: 2014-09-17, 17:53:09 -->
 <Tasks version="5.1">
   <ProjectScanFilter></ProjectScanFilter>
   <Task priority="1" completed="False" type="1">
@@ -628,37 +628,37 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 17:00:28</Created>
+    <Created>2014-09-17, 17:53:06</Created>
     <Resource>
       <Filename>Menu.py</Filename>
-      <Linenumber>41</Linenumber>
+      <Linenumber>42</Linenumber>
     </Resource>
   </Task>
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 17:00:28</Created>
+    <Created>2014-09-17, 17:53:06</Created>
     <Resource>
       <Filename>Menu.py</Filename>
-      <Linenumber>66</Linenumber>
+      <Linenumber>67</Linenumber>
     </Resource>
   </Task>
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 17:00:28</Created>
+    <Created>2014-09-17, 17:53:06</Created>
     <Resource>
       <Filename>Menu.py</Filename>
-      <Linenumber>81</Linenumber>
+      <Linenumber>82</Linenumber>
     </Resource>
   </Task>
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 17:00:28</Created>
+    <Created>2014-09-17, 17:53:06</Created>
     <Resource>
       <Filename>Menu.py</Filename>
-      <Linenumber>126</Linenumber>
+      <Linenumber>127</Linenumber>
     </Resource>
   </Task>
 </Tasks>
