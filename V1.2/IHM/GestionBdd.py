@@ -313,7 +313,7 @@ class GestionBdd:
                 n_serie_bis = str(query.value(0))
                 constructeur =  str(query.value(1))
                 designation = str(query.value(2))
-                designation_litterale = str(query.value(6))
+                designation_litterale = query.value(6)
                 type = str(query.value(3))
                 affectation = query.value(5)                
                 code_client = str("'"+str(query.value(4))+"'")
@@ -325,7 +325,7 @@ class GestionBdd:
                 affectation = "Neant"
                 
         if isinstance(designation_litterale, str) and designation_litterale != "None":
-            designation_finale = designation +" "+ "/" + " "+ designation_litterale
+            designation_finale = designation +" "+ "/" + " "+ str(designation_litterale)
         else:
             designation_finale = designation
         query.finish()
