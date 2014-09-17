@@ -20,7 +20,7 @@ class GestionBdd:
         '''Fonction a utiliser lors de la premiere connexion du logiciel'''
         
         type_bdd = QtSql.QSqlDatabase.addDatabase('QPSQL')
-        type_bdd.setHostName('localhost') #('10.42.1.74')            # 
+        type_bdd.setHostName('10.42.1.74') #('localhost')            # 
         type_bdd.setPort(5432)
         type_bdd.setDatabaseName(self.nombdd)
         type_bdd.setUserName(login) 
