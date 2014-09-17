@@ -1119,7 +1119,7 @@ class GestionBdd:
             rapport_etalonnage["Etat_reception"] = query.value(7)
             rapport_etalonnage["Annule_doc"] = query.value(8)
         
-        requete = """SELECT "DESIGNATION", "TYPE", "CONSTRUCTEUR", "N_SERIE", "CODE", "COMMENTAIRE", "AFFECTATION", "RESOLUTION" """\
+        requete = """SELECT "DESIGNATION", "TYPE", "CONSTRUCTEUR", "N_SERIE", "CODE", "COMMENTAIRE", "AFFECTATION", "RESOLUTION", """\
                         +""" "DESIGNATION_LITTERALE" FROM "INSTRUMENTS" """\
                         +"""WHERE "IDENTIFICATION" = '{}';""".format(rapport_etalonnage["identification_instrument"] )
                         
@@ -1136,7 +1136,7 @@ class GestionBdd:
             rapport_etalonnage["affectation"] = query.value(6)
             rapport_etalonnage["resolution"] = query.value(7)
             designation_litterale = query.value(8)
-            
+           
         if not rapport_etalonnage["affectation"]:
             rapport_etalonnage["affectation"] = "Neant"
             
@@ -1200,6 +1200,7 @@ class GestionBdd:
         
         rapport_etalonnage["n_certificat"] = n_doc
         query.finish()
+        
         return rapport_etalonnage
     
     def insertion_table_conformite_temp_resultat(self, donnees, date_etal):
