@@ -308,6 +308,15 @@ class Menu(QMainWindow, Ui_Menu):
                 ensemble_nom_campagne = db.recuperation_nom_campagne_etal_non_valide()
                 self.comboBox_validation_n_doc.clear()
 #                self.comboBox_validation_n_doc.addItems(valeur_combobox)
+                #effacement des fichiers temporaire (present dans le dossier AppData) 
+            
+                path =os.path.abspath("AppData/")
+          
+                for ele in os.listdir(path):
+                    path_total = str(path + "/"+str(ele))
+                
+                    if os.path.isfile(path_total): # verification qu'il s'agit bien de fichier
+                        os.remove(path_total)
                 
             else:
                 reponse = QMessageBox.question(self, 

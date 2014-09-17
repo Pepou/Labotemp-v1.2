@@ -3971,11 +3971,18 @@ def reinitialise_onglet_config(self):
                 self.comboBox_ident_instrum_19, self.textEdit_n_serie_instrum_19, self.textEdit_construct_instrum_19, self.textEdit_type_instrum_19, self.textEdit_resolution_instrum_19, self.textEdit_prof_imm_instrum_19, self.radioButton_cofrac_19, self.radioButton_non_cofrac_19, self.textEdit_com_inst_19,
                 self.comboBox_ident_instrum_20, self.textEdit_n_serie_instrum_20, self.textEdit_construct_instrum_20, self.textEdit_type_instrum_20, self.textEdit_resolution_instrum_20, self.textEdit_prof_imm_instrum_20, self.radioButton_cofrac_20, self.radioButton_non_cofrac_20, self.textEdit_com_inst_20
                 ]
+    qlabel_commentaire = [self.textEdit_etat_reception_inst_1, self.textEdit_etat_reception_inst_2, self.textEdit_etat_reception_inst_3, 
+                            self.textEdit_etat_reception_inst_4, self.textEdit_etat_reception_inst_5, self.textEdit_etat_reception_inst_6, 
+                            self.textEdit_etat_reception_inst_7, self.textEdit_etat_reception_inst_8, self.textEdit_etat_reception_inst_9, 
+                            self.textEdit_etat_reception_inst_10, self.textEdit_etat_reception_inst_11, self.textEdit_etat_reception_inst_12, 
+                            self.textEdit_etat_reception_inst_13, self.textEdit_etat_reception_inst_14, self.textEdit_etat_reception_inst_15, 
+                            self.textEdit_etat_reception_inst_16, self.textEdit_etat_reception_inst_17, self.textEdit_etat_reception_inst_18, 
+                            self.textEdit_etat_reception_inst_19, self.textEdit_etat_reception_inst_20]
     i=0
     while i < self.SpinBox_nbr_instruments.value():
         
         qlabel[9*i].setCurrentIndex(0)
-        
+        qlabel_commentaire[i].clear()
         j =1
         while j <= 5:
             qlabel[9*i +j].clear()
@@ -3986,6 +3993,14 @@ def reinitialise_onglet_config(self):
         qlabel[9*i + 8].clear()
         
         i+=1
+    
+    
+    
+    
+    
+    
+    
+    
     self.SpinBox_nbr_instruments.setValue(1)
     self.SpinBox_nbr_pt_etal.setValue(1)
 
