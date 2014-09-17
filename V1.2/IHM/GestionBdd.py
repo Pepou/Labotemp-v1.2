@@ -1120,14 +1120,14 @@ class GestionBdd:
             rapport_etalonnage["Annule_doc"] = query.value(8)
         
         requete = """SELECT "DESIGNATION", "TYPE", "CONSTRUCTEUR", "N_SERIE", "CODE", "COMMENTAIRE", "AFFECTATION", "RESOLUTION" """\
-                        +"""FROM "INSTRUMENTS" """\
+                        +""" "DESIGNATION_LITTERALE" FROM "INSTRUMENTS" """\
                         +"""WHERE "IDENTIFICATION" = '{}';""".format(rapport_etalonnage["identification_instrument"] )
                         
         
         query.exec(requete)
         
         while query.next() : 
-            rapport_etalonnage["designation"] = query.value(0)
+            designation = query.value(0)
             rapport_etalonnage["type"] = query.value(1)
             rapport_etalonnage["constructeur"] = query.value(2)
             rapport_etalonnage["n_serie"] = query.value(3)
@@ -1135,9 +1135,15 @@ class GestionBdd:
             rapport_etalonnage["renseignement_complementaire"] = query.value(5)
             rapport_etalonnage["affectation"] = query.value(6)
             rapport_etalonnage["resolution"] = query.value(7)
+            designation_litterale = query.value(8)
             
         if not rapport_etalonnage["affectation"]:
             rapport_etalonnage["affectation"] = "Neant"
+            
+        if isinstance(designation_litterale, str) and designation_litterale != "None":
+            rapport_etalonnage["designation"] = designation +" "+ "/" + " "+ str(designation_litterale)
+        else:
+            rapport_etalonnage["designation"] = designation
             
         requete = """SELECT "SOCIETE", "ADRESSE", "VILLE", "CODE_POSTAL" """\
                         +"""FROM "CLIENTS" """\

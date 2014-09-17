@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Tasks SYSTEM "Tasks-5.1.dtd">
 <!-- eric5 tasks file for project Logiciel saisie laboratoire -->
-<!-- Saved: 2014-09-17, 16:57:14 -->
+<!-- Saved: 2014-09-17, 17:00:31 -->
 <Tasks version="5.1">
   <ProjectScanFilter></ProjectScanFilter>
   <Task priority="1" completed="False" type="1">
@@ -263,42 +263,6 @@
     <Resource>
       <Filename>resume_onglet_resultat.py</Filename>
       <Linenumber>56</Linenumber>
-    </Resource>
-  </Task>
-  <Task priority="1" completed="False" type="1">
-    <Summary>TODO: not implemented yet</Summary>
-    <Description></Description>
-    <Created>2014-09-08, 15:22:47</Created>
-    <Resource>
-      <Filename>Menu.py</Filename>
-      <Linenumber>41</Linenumber>
-    </Resource>
-  </Task>
-  <Task priority="1" completed="False" type="1">
-    <Summary>TODO: not implemented yet</Summary>
-    <Description></Description>
-    <Created>2014-09-08, 15:22:47</Created>
-    <Resource>
-      <Filename>Menu.py</Filename>
-      <Linenumber>66</Linenumber>
-    </Resource>
-  </Task>
-  <Task priority="1" completed="False" type="1">
-    <Summary>TODO: not implemented yet</Summary>
-    <Description></Description>
-    <Created>2014-09-08, 15:22:47</Created>
-    <Resource>
-      <Filename>Menu.py</Filename>
-      <Linenumber>81</Linenumber>
-    </Resource>
-  </Task>
-  <Task priority="1" completed="False" type="1">
-    <Summary>TODO: not implemented yet</Summary>
-    <Description></Description>
-    <Created>2014-09-08, 15:22:47</Created>
-    <Resource>
-      <Filename>Menu.py</Filename>
-      <Linenumber>126</Linenumber>
     </Resource>
   </Task>
   <Task priority="1" completed="False" type="1">
@@ -659,6 +623,42 @@
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>3109</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2014-09-17, 17:00:28</Created>
+    <Resource>
+      <Filename>Menu.py</Filename>
+      <Linenumber>41</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2014-09-17, 17:00:28</Created>
+    <Resource>
+      <Filename>Menu.py</Filename>
+      <Linenumber>66</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2014-09-17, 17:00:28</Created>
+    <Resource>
+      <Filename>Menu.py</Filename>
+      <Linenumber>81</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2014-09-17, 17:00:28</Created>
+    <Resource>
+      <Filename>Menu.py</Filename>
+      <Linenumber>126</Linenumber>
     </Resource>
   </Task>
 </Tasks>
