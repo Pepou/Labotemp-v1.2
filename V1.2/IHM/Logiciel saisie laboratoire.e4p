@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-5.1.dtd">
 <!-- eric5 project file for project Logiciel saisie laboratoire -->
-<!-- Saved: 2014-09-11, 10:18:23 -->
+<!-- Saved: 2014-09-17, 18:33:12 -->
 <!-- Copyright (C) 2014 F.Cariou,  -->
 <Project version="5.1">
   <Language>en_US</Language>
@@ -121,7 +121,7 @@
               <string>targetDirectory</string>
             </key>
             <value>
-              <string>C:\Travail\EFS\Travail accreditation\SQ\Temperature\Logiciel Saisie des Etalonnages\Builds\V1.2\Package\Logiciel saisie v1.2</string>
+              <string>c:\Travail\EFS\Travail accreditation\SQ\Developpement Informatique\Labotemp-v1.2\V1.2\Package\Logiciel saisie v1.2\\V1.2\Package\Logiciel saisie v1.2</string>
             </value>
             <key>
               <string>targetName</string>
