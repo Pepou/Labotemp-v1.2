@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Tasks SYSTEM "Tasks-5.1.dtd">
 <!-- eric5 tasks file for project Logiciel saisie laboratoire -->
-<!-- Saved: 2014-09-17, 18:34:58 -->
+<!-- Saved: 2014-09-19, 12:41:14 -->
 <Tasks version="5.1">
   <ProjectScanFilter></ProjectScanFilter>
   <Task priority="1" completed="False" type="1">
@@ -304,7 +304,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>398</Linenumber>
@@ -313,7 +313,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>407</Linenumber>
@@ -322,7 +322,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>415</Linenumber>
@@ -331,7 +331,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>423</Linenumber>
@@ -340,7 +340,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>431</Linenumber>
@@ -349,7 +349,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>439</Linenumber>
@@ -358,7 +358,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>447</Linenumber>
@@ -367,7 +367,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>455</Linenumber>
@@ -376,7 +376,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>463</Linenumber>
@@ -385,7 +385,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>471</Linenumber>
@@ -394,7 +394,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>479</Linenumber>
@@ -403,7 +403,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>487</Linenumber>
@@ -412,7 +412,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>495</Linenumber>
@@ -421,7 +421,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>503</Linenumber>
@@ -430,7 +430,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>511</Linenumber>
@@ -439,7 +439,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>519</Linenumber>
@@ -448,7 +448,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>527</Linenumber>
@@ -457,7 +457,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>535</Linenumber>
@@ -466,7 +466,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>543</Linenumber>
@@ -475,7 +475,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>551</Linenumber>
@@ -484,7 +484,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>559</Linenumber>
@@ -493,7 +493,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>2947</Linenumber>
@@ -502,7 +502,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>2956</Linenumber>
@@ -511,7 +511,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>2965</Linenumber>
@@ -520,7 +520,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>2974</Linenumber>
@@ -529,7 +529,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>2983</Linenumber>
@@ -538,7 +538,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>2992</Linenumber>
@@ -547,7 +547,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>3001</Linenumber>
@@ -556,7 +556,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>3010</Linenumber>
@@ -565,7 +565,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>3019</Linenumber>
@@ -574,7 +574,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>3028</Linenumber>
@@ -583,7 +583,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>3037</Linenumber>
@@ -592,7 +592,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>3046</Linenumber>
@@ -601,7 +601,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>3055</Linenumber>
@@ -610,7 +610,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>3064</Linenumber>
@@ -619,7 +619,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>3073</Linenumber>
@@ -628,7 +628,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>3082</Linenumber>
@@ -637,7 +637,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>3091</Linenumber>
@@ -646,7 +646,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>3100</Linenumber>
@@ -655,7 +655,7 @@
   <Task priority="1" completed="False" type="1">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2014-09-17, 18:00:20</Created>
+    <Created>2014-09-18, 11:06:22</Created>
     <Resource>
       <Filename>Saisie_etalonnage.py</Filename>
       <Linenumber>3109</Linenumber>
