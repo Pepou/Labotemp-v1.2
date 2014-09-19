@@ -445,7 +445,7 @@ class RapportEtalonnage:
         doc = word.Documents.Open(self.cv_travail)
              
         #Traitement du CV
-        print(num_cv)
+        
         doc.Bookmarks("n_certificat").Range.Text = num_cv  #permet de se deplacer sur les signets et attribuer un string
                  
         if donnees["affectation"] != "Neant":
