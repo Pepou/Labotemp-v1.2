@@ -12,7 +12,7 @@ class GestionBdd:
         '''Constructeur de la classe'''
         
         self.path_bdd = os.path.abspath("BDD/saisie_etal_temp_test.db")
-        self.nombdd = "Labo_Metro_Test"#"Labo_Metro_Prod" #"Labo_Metro_Test"
+        self.nombdd = "Labo_Metro_Prod"#"Labo_Metro_Prod" #"Labo_Metro_Test"
         self.nom = nom
 #        self.model = QtSql.QSqlTableModel()
     
