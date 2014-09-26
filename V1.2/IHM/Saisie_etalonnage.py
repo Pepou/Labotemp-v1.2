@@ -3207,6 +3207,7 @@ def effacement_onglet_saisie (self) :
 def reaffectation_donnees_onglet_saisie(self, onglet):
     
     try:
+        print("affichage onglet {}".format(onglet))
         list_textedit_instruments = [self.textEdit_mesures_inst_1, self.textEdit_mesures_inst_2, self.textEdit_mesures_inst_3, 
                                     self.textEdit_mesures_inst_4, self.textEdit_mesures_inst_5, self.textEdit_mesures_inst_6, 
                                     self.textEdit_mesures_inst_7, self.textEdit_mesures_inst_8, self.textEdit_mesures_inst_9, 
@@ -3235,6 +3236,7 @@ def reaffectation_donnees_onglet_saisie(self, onglet):
         i = 0
         while i < self.SpinBox_nbr_instruments.value() :
             for element in onglet[list_indice_instrum[i]] :
+                print("element dans l'onlet {}".format(element))
                 list_textedit_instruments[i].append(str(element))
             i+=1
     except KeyError:
