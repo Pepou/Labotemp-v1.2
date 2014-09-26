@@ -3206,41 +3206,41 @@ def effacement_onglet_saisie (self) :
 
 def reaffectation_donnees_onglet_saisie(self, onglet):
     
-    try:
-        print("affichage onglet {}".format(onglet))
-        list_textedit_instruments = [self.textEdit_mesures_inst_1, self.textEdit_mesures_inst_2, self.textEdit_mesures_inst_3, 
-                                    self.textEdit_mesures_inst_4, self.textEdit_mesures_inst_5, self.textEdit_mesures_inst_6, 
-                                    self.textEdit_mesures_inst_7, self.textEdit_mesures_inst_8, self.textEdit_mesures_inst_9, 
-                                    self.textEdit_mesures_inst_10, self.textEdit_mesures_inst_11, self.textEdit_mesures_inst_12, 
-                                    self.textEdit_mesures_inst_13, self.textEdit_mesures_inst_14, self.textEdit_mesures_inst_15, 
-                                    self.textEdit_mesures_inst_16, self.textEdit_mesures_inst_17, self.textEdit_mesures_inst_18, 
-                                    self.textEdit_mesures_inst_19, self.textEdit_mesures_inst_20]
-        
-        list_indice_instrum = ["mesures_inst_1","mesures_inst_2","mesures_inst_3","mesures_inst_4", 
-                            "mesures_inst_5","mesures_inst_6","mesures_inst_7","mesures_inst_8", 
-                            "mesures_inst_9","mesures_inst_10","mesures_inst_11","mesures_inst_12", 
-                            "mesures_inst_13","mesures_inst_14","mesures_inst_15","mesures_inst_16", 
-                            "mesures_inst_17","mesures_inst_18","mesures_inst_19","mesures_inst_20"]
-        
-        self.Zone_text_temp_consigne_2.setText(str(onglet["temp_consig"] ))
-        self.Zone_texte_chemin_fichier_etalon_2.setText(onglet["chemin_fichier_etalon"])
-        self.Combobox_etalon_select_2.setCurrentIndex(onglet["etalon"])
-        self.Combobox_operateur_select_2.setCurrentIndex(onglet["operateur"])
-        self.Combobox_generateur_select_2.setCurrentIndex(onglet["generateur"])
-           
-        
-        for element in onglet["mesures_etal_brute"] :
-            self.textEdit_mesures_etalon_brutes.append(str(element))
-        for element in onglet["mesures_etal_corri"] :
-            self.textEdit_mesures_etalon_corrigees.append(str(round(element, 4)))
-        i = 0
-        while i < self.SpinBox_nbr_instruments.value() :
-            for element in onglet[list_indice_instrum[i]] :
-                print("element dans l'onlet {}".format(element))
-                list_textedit_instruments[i].append(str(element))
+#    try:
+    
+    list_textedit_instruments = [self.textEdit_mesures_inst_1, self.textEdit_mesures_inst_2, self.textEdit_mesures_inst_3, 
+                                self.textEdit_mesures_inst_4, self.textEdit_mesures_inst_5, self.textEdit_mesures_inst_6, 
+                                self.textEdit_mesures_inst_7, self.textEdit_mesures_inst_8, self.textEdit_mesures_inst_9, 
+                                self.textEdit_mesures_inst_10, self.textEdit_mesures_inst_11, self.textEdit_mesures_inst_12, 
+                                self.textEdit_mesures_inst_13, self.textEdit_mesures_inst_14, self.textEdit_mesures_inst_15, 
+                                self.textEdit_mesures_inst_16, self.textEdit_mesures_inst_17, self.textEdit_mesures_inst_18, 
+                                self.textEdit_mesures_inst_19, self.textEdit_mesures_inst_20]
+    
+    list_indice_instrum = ["mesures_inst_1","mesures_inst_2","mesures_inst_3","mesures_inst_4", 
+                        "mesures_inst_5","mesures_inst_6","mesures_inst_7","mesures_inst_8", 
+                        "mesures_inst_9","mesures_inst_10","mesures_inst_11","mesures_inst_12", 
+                        "mesures_inst_13","mesures_inst_14","mesures_inst_15","mesures_inst_16", 
+                        "mesures_inst_17","mesures_inst_18","mesures_inst_19","mesures_inst_20"]
+    
+    self.Zone_text_temp_consigne_2.setText(str(onglet["temp_consig"] ))
+    self.Zone_texte_chemin_fichier_etalon_2.setText(onglet["chemin_fichier_etalon"])
+    self.Combobox_etalon_select_2.setCurrentIndex(onglet["etalon"])
+    self.Combobox_operateur_select_2.setCurrentIndex(onglet["operateur"])
+    self.Combobox_generateur_select_2.setCurrentIndex(onglet["generateur"])
+       
+    
+    for element in onglet["mesures_etal_brute"] :
+        self.textEdit_mesures_etalon_brutes.append(str(element))
+    for element in onglet["mesures_etal_corri"] :
+        self.textEdit_mesures_etalon_corrigees.append(str(round(element, 4)))
+    i = 0
+    while i < self.SpinBox_nbr_instruments.value() :
+        for element in onglet[list_indice_instrum[i]] :
+            
+            list_textedit_instruments[i].append(str(element))
             i+=1
-    except KeyError:
-        pass
+#    except KeyError:
+#        pass
 ####################################################################################################################################
 
 def traitement_donnees_saisies(self):
