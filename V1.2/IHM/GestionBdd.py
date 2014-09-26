@@ -12,7 +12,7 @@ class GestionBdd:
         '''Constructeur de la classe'''
         
         self.path_bdd = os.path.abspath("BDD/saisie_etal_temp_test.db")
-        self.nombdd = "Labo_Metro_Test"#"Labo_Metro_Prod" #"Labo_Metro_Test"
+        self.nombdd = "Labo_Metro_Prod"#"Labo_Metro_Prod" #"Labo_Metro_Test"
         self.nom = nom
 #        self.model = QtSql.QSqlTableModel()
     
@@ -20,7 +20,7 @@ class GestionBdd:
         '''Fonction a utiliser lors de la premiere connexion du logiciel'''
         
         type_bdd = QtSql.QSqlDatabase.addDatabase('QPSQL')
-        type_bdd.setHostName('localhost') #('10.42.1.74')            # 
+        type_bdd.setHostName('10.42.1.74')#('localhost') #('10.42.1.74')            # 
         type_bdd.setPort(5432)
         type_bdd.setDatabaseName(self.nombdd)
         type_bdd.setUserName(login) 
